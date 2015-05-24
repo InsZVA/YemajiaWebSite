@@ -10,16 +10,7 @@ class SimpleHttpClient {
 		return self::http($url, 'GET');
 	}
 
-	public static function post($url, $params, $files = array()) {
-		$headers = array();
-		if (!$files) {
-			$body = http_build_query($params);
-		} else {
-			$body = self::build_http_query_multi($params, $files);
-			$headers[] = "Content-Type: multipart/form-data; boundary=" . self::$boundary;
-		}
-		return self::http($url, 'POST', $body, $headers);
-	}
+	
 
 	/**
 	 * Make an HTTP request
