@@ -1,0 +1,63 @@
+body
+{
+	text-align:center;
+}
+div#container
+{
+	margin:0 auto;
+	width:600px;
+	
+}
+div#f
+{
+	background-color:#FF9A35;
+}
+div#container>#f>div
+{
+	height:100px;
+	width:600px;
+}
+form>input
+{
+	width:100px;
+	background-color:#A54A23;
+	height:40px;
+	border:0px;
+	border-radius:5px;
+	cursor:pointer;
+	margin:10px;
+}
+form>div>input
+{
+width:220px;
+
+}
+form>div>div
+{
+
+
+}
+form>div>label
+{
+	text-align:right;
+	float:left;
+	left:100px;
+	position:relative;
+	width:120px;
+}
+form>div.bx
+{
+	width:600px;
+	height:40px; 
+}
+iframe{
+	background-color:#DCC29C;
+}
+#bbox a:link,#bbox a:visited{
+	text-decoration:none;
+	color:#1E68BB;
+}
+#bbox a:hover,#bbox a:active{
+	color:#667077;
+}
+
